@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" fill="none">
+  <defs>
+    <linearGradient id="fleetSky" x1="0" y1="0" x2="0" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00B2FF"/>
+      <stop offset="1" stop-color="#EAF2FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="16" fill="url(#fleetSky)"/>
+  <circle cx="560" cy="70" r="36" fill="#FFFFFF" opacity="0.85"/>
+  <path d="M0 250 Q 160 220 320 250 T 640 250 V360 H0 Z" fill="#0A1F44"/>
+  <path d="M0 262 Q 160 234 320 262 T 640 262 V360 H0 Z" fill="#155EEF" opacity="0.7"/>
+  <g transform="translate(60,190)">
+    <rect x="0" y="30" width="150" height="36" rx="10" fill="#FFFFFF"/>
+    <path d="M10 30 L34 4 L116 4 L140 30 Z" fill="#FFFFFF"/>
+    <circle cx="34" cy="70" r="16" fill="#0A1F44"/>
+    <circle cx="116" cy="70" r="16" fill="#0A1F44"/>
+    <circle cx="34" cy="70" r="6" fill="#FF8A00"/>
+    <circle cx="116" cy="70" r="6" fill="#FF8A00"/>
+  </g>
+  <g transform="translate(250,170)">
+    <rect x="0" y="42" width="180" height="46" rx="10" fill="#155EEF"/>
+    <path d="M12 42 L40 4 L140 4 L168 42 Z" fill="#155EEF"/>
+    <rect x="30" y="14" width="26" height="22" rx="3" fill="#EAF2FF"/>
+    <rect x="70" y="8" width="40" height="26" rx="3" fill="#EAF2FF"/>
+    <rect x="122" y="14" width="26" height="22" rx="3" fill="#EAF2FF"/>
+    <circle cx="40" cy="90" r="19" fill="#0A1F44"/>
+    <circle cx="140" cy="90" r="19" fill="#0A1F44"/>
+    <circle cx="40" cy="90" r="7" fill="#FF8A00"/>
+    <circle cx="140" cy="90" r="7" fill="#FF8A00"/>
+  </g>
+  <g transform="translate(460,195)">
+    <rect x="0" y="28" width="140" height="34" rx="9" fill="#FF8A00"/>
+    <path d="M8 28 L30 4 L108 4 L130 28 Z" fill="#FF8A00"/>
+    <circle cx="30" cy="64" r="15" fill="#0A1F44"/>
+    <circle cx="108" cy="64" r="15" fill="#0A1F44"/>
+    <circle cx="30" cy="64" r="5.5" fill="#FFFFFF"/>
+    <circle cx="108" cy="64" r="5.5" fill="#FFFFFF"/>
+  </g>
+  <rect x="24" y="24" width="220" height="34" rx="17" fill="#0A1F44" opacity="0.85"/>
+  <text x="42" y="46" font-family="Poppins, Arial, sans-serif" font-size="13" fill="#FFFFFF" font-weight="600">Our Fleet &#183; Diu, Gujarat</text>
+</svg>

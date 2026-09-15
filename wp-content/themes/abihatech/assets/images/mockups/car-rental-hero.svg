@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <defs>
+    <linearGradient id="crHeroSky" x1="0" y1="0" x2="0" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00B2FF"/>
+      <stop offset="0.6" stop-color="#8FD6FF"/>
+      <stop offset="1" stop-color="#EAF2FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" rx="16" fill="url(#crHeroSky)"/>
+  <circle cx="540" cy="90" r="46" fill="#FFFFFF" opacity="0.9"/>
+  <path d="M-20 300 Q 160 260 320 300 T 660 300 V420 H-20 Z" fill="#00B2FF" opacity="0.55"/>
+  <path d="M-20 330 Q 160 300 320 330 T 660 330 V420 H-20 Z" fill="#0A1F44"/>
+  <rect x="0" y="340" width="640" height="14" fill="#5B6B8C"/>
+  <rect x="0" y="346" width="640" height="4" fill="#FFFFFF" stroke-dasharray="18 14"/>
+  <g transform="translate(150,250)">
+    <rect x="0" y="40" width="260" height="56" rx="14" fill="#0A1F44"/>
+    <path d="M14 40 L52 4 L206 4 L246 40 Z" fill="#0A1F44"/>
+    <rect x="52" y="14" width="46" height="30" rx="4" fill="#00B2FF"/>
+    <rect x="112" y="10" width="72" height="34" rx="4" fill="#00B2FF"/>
+    <rect x="196" y="14" width="46" height="30" rx="4" fill="#00B2FF"/>
+    <circle cx="52" cy="100" r="26" fill="#14213D"/>
+    <circle cx="208" cy="100" r="26" fill="#14213D"/>
+    <circle cx="52" cy="100" r="10" fill="#FF8A00"/>
+    <circle cx="208" cy="100" r="10" fill="#FF8A00"/>
+  </g>
+  <rect x="36" y="32" width="260" height="40" rx="20" fill="#FFFFFF"/>
+  <text x="56" y="58" font-family="Poppins, Arial, sans-serif" font-size="14" fill="#0A1F44" font-weight="700">Diu &#8594; Somnath &#8226; Outstation</text>
+  <rect x="440" y="200" width="164" height="46" rx="23" fill="#FF8A00"/>
+  <text x="462" y="228" font-family="Poppins, Arial, sans-serif" font-size="13" fill="#FFFFFF" font-weight="700">Book a Ride</text>
+</svg>

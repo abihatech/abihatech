@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <defs>
+    <linearGradient id="crTopBar" x1="0" y1="0" x2="640" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0A1F44"/>
+      <stop offset="1" stop-color="#155EEF"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="640" height="420" rx="16" fill="#F7F9FC"/>
+  <rect x="0" y="0" width="640" height="56" rx="16" fill="url(#crTopBar)"/>
+  <rect x="0" y="40" width="640" height="16" fill="url(#crTopBar)"/>
+  <circle cx="26" cy="28" r="6" fill="#FF8A00"/>
+  <circle cx="46" cy="28" r="6" fill="#00B2FF"/>
+  <circle cx="66" cy="28" r="6" fill="#FFFFFF" opacity="0.7"/>
+  <text x="230" y="33" font-family="Poppins, Arial, sans-serif" font-size="15" fill="#FFFFFF" font-weight="600">AbihaTech Car Rentals &#183; Diu</text>
+
+  <rect x="24" y="80" width="592" height="110" rx="12" fill="#FFFFFF" stroke="#E3E8F0"/>
+  <text x="40" y="106" font-family="Poppins, Arial, sans-serif" font-size="11" fill="#5B6B8C">PICK-UP</text>
+  <text x="40" y="128" font-family="Poppins, Arial, sans-serif" font-size="14" fill="#0A1F44" font-weight="600">Diu Airport (DIU)</text>
+  <text x="200" y="106" font-family="Poppins, Arial, sans-serif" font-size="11" fill="#5B6B8C">DROP</text>
+  <text x="200" y="128" font-family="Poppins, Arial, sans-serif" font-size="14" fill="#0A1F44" font-weight="600">Nagoa Beach, Diu</text>
+  <text x="380" y="106" font-family="Poppins, Arial, sans-serif" font-size="11" fill="#5B6B8C">DATE &amp; TIME</text>
+  <text x="380" y="128" font-family="Poppins, Arial, sans-serif" font-size="14" fill="#0A1F44" font-weight="600">Today, 4:30 PM</text>
+  <rect x="500" y="98" width="96" height="36" rx="18" fill="#FF8A00"/>
+  <text x="518" y="121" font-family="Poppins, Arial, sans-serif" font-size="13" fill="#FFFFFF" font-weight="700">Search</text>
+
+  <g font-family="Poppins, Arial, sans-serif">
+    <rect x="40" y="150" width="110" height="26" rx="13" fill="#0A1F44"/>
+    <text x="56" y="167" font-size="11" fill="#FFFFFF">Airport Transfer</text>
+    <rect x="158" y="150" width="100" height="26" rx="13" fill="#EEF1F6"/>
+    <text x="174" y="167" font-size="11" fill="#0A1F44">Outstation</text>
+    <rect x="266" y="150" width="120" height="26" rx="13" fill="#EEF1F6"/>
+    <text x="280" y="167" font-size="11" fill="#0A1F44">Tour Package</text>
+    <rect x="394" y="150" width="100" height="26" rx="13" fill="#EEF1F6"/>
+    <text x="410" y="167" font-size="11" fill="#0A1F44">Hourly Rental</text>
+  </g>
+
+  <rect x="24" y="206" width="288" height="190" rx="12" fill="#FFFFFF" stroke="#E3E8F0"/>
+  <rect x="40" y="222" width="256" height="86" rx="10" fill="#EAF2FF"/>
+  <rect x="60" y="250" width="216" height="40" rx="8" fill="#155EEF" opacity="0.15"/>
+  <text x="40" y="330" font-family="Poppins, Arial, sans-serif" font-size="13" fill="#0A1F44" font-weight="700">Swift Dzire &#183; Sedan</text>
+  <text x="40" y="350" font-family="Poppins, Arial, sans-serif" font-size="11" fill="#5B6B8C">4 seats &#183; AC &#183; Airport ready</text>
+  <text x="40" y="376" font-family="Poppins, Arial, sans-serif" font-size="16" fill="#0A1F44" font-weight="700">&#8377;1,199</text>
+  <rect x="210" y="358" width="86" height="30" rx="15" fill="#FF8A00"/>
+  <text x="224" y="378" font-family="Poppins, Arial, sans-serif" font-size="11" fill="#FFFFFF" font-weight="700">Book Now</text>
+
+  <rect x="328" y="206" width="288" height="190" rx="12" fill="url(#crTopBar)"/>
+  <rect x="344" y="222" width="256" height="86" rx="10" fill="#FFFFFF" opacity="0.12"/>
+  <rect x="364" y="250" width="216" height="40" rx="8" fill="#FFFFFF" opacity="0.2"/>
+  <text x="344" y="330" font-family="Poppins, Arial, sans-serif" font-size="13" fill="#FFFFFF" font-weight="700">Innova Crysta &#183; SUV</text>
+  <text x="344" y="350" font-family="Poppins, Arial, sans-serif" font-size="11" fill="#DCE6FF">7 seats &#183; AC &#183; Outstation ready</text>
+  <text x="344" y="376" font-family="Poppins, Arial, sans-serif" font-size="16" fill="#FFFFFF" font-weight="700">&#8377;2,199</text>
+  <rect x="514" y="358" width="86" height="30" rx="15" fill="#FF8A00"/>
+  <text x="528" y="378" font-family="Poppins, Arial, sans-serif" font-size="11" fill="#FFFFFF" font-weight="700">Book Now</text>
+</svg>
