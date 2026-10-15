@@ -1,67 +1,83 @@
-# AbihaTech Marketing Website
+# MenuPilot - QR Ordering & Payments
 
-A responsive WordPress theme for **AbihaTech**, marketing two products:
+MenuPilot is a modern restaurant ordering and payments experience built as a React + Vite landing page and interactive product demo. It showcases a QR-based ordering flow for Indian restaurants and cafes, including live kitchen tracking, customer ordering screens, payment confirmation, and WhatsApp receipt delivery.
 
-- **[MenuSpilot](https://menuspilot.com)** — QR-code digital menu & zero-commission ordering for restaurants.
-- **AbihaTech Car Rentals** — Airport transfers, tour packages, outstation trips and hourly rentals in Diu, Gujarat.
+## Overview
 
-Theme location: `wp-content/themes/abihatech`
+This project demonstrates how a restaurant can digitize table ordering with:
 
-## Color theme
+- QR-enabled table ordering
+- Real-time kitchen order status updates
+- Customer app simulation for item selection and checkout
+- UPI, card, and cash payment flow
+- Digital receipt capture with WhatsApp-ready messaging
+- Vendor dashboard and revenue analytics
 
-Colors are sourced directly from the AbihaTech logo (navy-to-blue gradient "AT" mark) with a warm amber accent for contrast on calls-to-action and ratings:
+## Features
 
-| Token | Hex | Use |
-|---|---|---|
-| `--navy` | `#0A1F44` | Headings, footer, header text |
-| `--blue` | `#155EEF` | Primary brand blue, links |
-| `--blue-bright` | `#00B2FF` | Gradient highlight |
-| `--accent` | `#FF8A00` | CTA buttons, ratings, badges (contrast color) |
-| `--bg` | `#F7F9FC` | Page background |
+- Responsive landing page for restaurant sales and product positioning
+- Vendor dashboard with live order queue and order state controls
+- Full customer mobile ordering UI for table scans
+- Menu management with item availability toggles
+- Payment and receipt modal with order summaries
+- Revenue and order analytics overview
+- Pricing and FAQ sections for product marketing
 
-All variables live at the top of `wp-content/themes/abihatech/style.css` — change them there to re-theme the whole site.
+## Tech Stack
 
-## Pages & sections
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+- Lucide React icons
+- Motion animations
 
-- **Homepage** (`front-page.php`): hero, products overview, MenuSpilot teaser, Car Rental teaser, customer reviews, happy customers, closing CTA.
-- **`/menuspilot`** (`page-menuspilot.php`): full MenuSpilot feature breakdown, screenshots, MenuSpilot-only reviews.
-- **`/car-rental`** (`page-car-rental.php`): full Car Rental service breakdown (airport transfer, tour packages, outstation, hourly), booking screenshot, Car Rental-only reviews.
+## Getting Started
 
-Both pages, plus sample testimonials, are created automatically on first load — no manual content entry required to see the site working.
+### Prerequisites
 
-## Installing on a WordPress + MySQL server
+- Node.js 18+
+- npm
 
-1. Create a MySQL/MariaDB database and a `wp-config.php` for it, as with any WordPress install.
-2. Copy `wp-content/themes/abihatech` into your WordPress site's `wp-content/themes/` directory.
-3. In **wp-admin → Appearance → Themes**, activate **AbihaTech Marketing**.
-4. Visit the homepage — sample pages (MenuSpilot, Car Rental) and six sample testimonials are seeded automatically into the standard WordPress MySQL tables (`wp_posts` / `wp_postmeta`).
-5. (Optional) Assign a menu under **Appearance → Menus** to the **Primary Menu** location; otherwise a sensible default menu is shown.
+### Install dependencies
 
-## Managing reviews
+```bash
+npm install
+```
 
-Testimonials are a custom post type (**Testimonials** in the wp-admin sidebar), stored in MySQL like any other post. Each one has:
+### Run the app locally
 
-- Title (used as the short headline / initials source)
-- Content (the review quote)
-- Rating (1–5, meta field)
-- Product tag (`MenuSpilot` or `Car Rental`, meta field)
-- Customer role / location (meta field, e.g. "Owner, Cafe Aroma")
+```bash
+npm run dev
+```
 
-Add, edit, or remove testimonials from wp-admin at any time — the homepage and both product pages pull the latest published reviews automatically.
+The app will start on:
 
-## Screenshots / product images
+- http://localhost:3000
 
-Product "screenshots" are placeholder SVG mockups in `wp-content/themes/abihatech/assets/images/mockups/` (dashboard, phone menu, booking screen, fleet illustration), styled in the brand colors. Swap these for real product screenshots by replacing the files at the same paths, or by editing the `<img src>` references in:
+### Production build
 
-- `template-parts/section-products.php`
-- `template-parts/section-menuspilot.php`
-- `template-parts/section-car-rental.php`
-- `page-menuspilot.php`, `page-car-rental.php`
+```bash
+npm run build
+```
 
-## Logo
+### Type-checking
 
-`assets/images/logo.svg` is a vector recreation of the AbihaTech logo for use in the theme (header + footer). Replace it with the original logo file (keeping the filename `logo.svg`, or update the `<img src>` in `header.php` / `footer.php`) for pixel-perfect branding.
+```bash
+npm run lint
+```
 
-## Responsive design
+## Project Structure
 
-Mobile-first CSS with breakpoints at 1024px and 768px: the header collapses into a slide-down menu with a hamburger toggle below 768px, the two-column product/feature sections stack to one column, and the stats/review grids reflow from 3–4 columns down to 1–2 on small screens.
+```text
+src/
+  components/      UI sections and interactive modals
+  data/            mock menu and order data
+  App.tsx          main application layout and state
+  main.tsx         app bootstrap
+  index.css        base styling and Tailwind setup
+```
+
+## Notes
+
+This repository contains a front-end demo of a restaurant QR ordering product. The current implementation uses mock data to simulate orders, menu updates, payment flows, and vendor interactions for presentation and product discovery purposes.

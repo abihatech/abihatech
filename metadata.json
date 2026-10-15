@@ -1,0 +1,6 @@
+{
+  "name": "MenuPilot - QR Ordering & Payments",
+  "description": "QR table ordering, instant payments, and WhatsApp receipts for Indian restaurants and cafes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
